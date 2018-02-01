@@ -5,7 +5,7 @@
 #include <stack>
 #include <cstdint>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	class worker;
 	class worker_thread;

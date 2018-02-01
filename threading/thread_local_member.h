@@ -1,6 +1,6 @@
 #pragma once
 
-namespace threadpool
+namespace small_tl::threading
 {
 	template<class thread_local_member_t>
 	class thread_local_member

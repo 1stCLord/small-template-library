@@ -10,7 +10,7 @@
 #include <thread>
 #include <mutex>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	class simple_async
 	{

@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <thread>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	void set_thread_name(const std::thread::native_handle_type thread_id, char const * const name)
 	{

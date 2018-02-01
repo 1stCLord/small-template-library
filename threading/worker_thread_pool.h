@@ -9,7 +9,7 @@
 //oversubscribe potentially quiet threads
 uint8_t default_thread_pool_size = std::min<uint8_t>(8, std::thread::hardware_concurrency() * 2);
 
-namespace threadpool
+namespace small_tl::threading
 {
 	class worker;
 	class worker_thread_pool

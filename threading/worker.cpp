@@ -2,7 +2,7 @@
 #include "worker_thread.h"
 #include <cassert>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	worker::worker(const std::string & name) : my_name(name), my_worker_thread(nullptr), my_has_work(0) {}
 

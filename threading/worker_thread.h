@@ -8,7 +8,7 @@
 #include <thread>
 #include "worker_types.h"
 
-namespace threadpool
+namespace small_tl::threading
 {
 	class worker_thread
 	{

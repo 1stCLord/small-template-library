@@ -2,7 +2,7 @@
 #include <cassert>
 #include <algorithm>
 
-namespace threadpool
+namespace small_tl::threading
 {
 
   struct simple_async::scheduled_task

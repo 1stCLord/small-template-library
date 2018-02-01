@@ -8,7 +8,7 @@
 #include <cassert>
 #include "message.h"
 
-namespace threadpool
+namespace small_tl::threading
 {
 	template<class listener>
 	class messenger : public worker

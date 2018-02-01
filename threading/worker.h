@@ -2,7 +2,7 @@
 #include <memory>
 #include <mutex>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	class worker
 	{

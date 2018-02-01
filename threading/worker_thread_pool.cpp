@@ -2,7 +2,7 @@
 #include "worker.h"
 #include <string>
 
-namespace threadpool
+namespace small_tl::threading
 {
 	worker_thread_pool::worker_thread_pool(const std::string & name, const uint8_t worker_thread_count) :
 		my_name(name)
